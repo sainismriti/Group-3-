@@ -1,15 +1,17 @@
-/* banner */
+
+html {
+  background-color: whitesmoke;
+}
+
 #banner {
-  background-color: #36454f; /* charcoal color */
+  background-color: #A4D5D1;
   color: white;
-  display: flex;
-  align-items: center;
-  padding: 1em 1em;
+  padding-bottom: 1.5em;
 }
 
 /* navigation links */
 #banner a {
-  color: white;
+  color: #333;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1em;
@@ -18,9 +20,10 @@
 
 /* body */
 body {
-  background-color: #d3d3d3; /* light gray color */
+  background-color: #A4D5D1;
   color: #333;
   font-family: sans-serif;
-  margin: 0;
+  margin: 10px 2em 1em 2em;
   padding: 1em;
 }
+

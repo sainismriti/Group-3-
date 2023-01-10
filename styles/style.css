@@ -7,7 +7,9 @@ html {
   background-color: #A4D5D1;
   color: white;
   padding-bottom: 1em;
-  border-bottom: 10px solid whitesmoke;
+  padding-top: 1em;
+  padding-left:1em;
+  border-bottom: 5px solid whitesmoke;
 }
 
 /* navigation links */
@@ -25,6 +27,21 @@ body {
   color: #333;
   font-family: sans-serif;
   margin: 2.5em 4em 4em 4em;
-  padding: 1em;
+
+}
+
+p {width: 1000px;
+  padding-left:75px;
+}
+
+h1{ padding: 0 0 0 25px;
+ }
+
+h2{
+  border-top: 3px dashed whitesmoke;
+  padding: 25px 0 0 25px;
+}
+
+h3{padding: 0 0 0 25px;
 }
 

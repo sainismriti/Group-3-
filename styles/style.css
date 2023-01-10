@@ -1,14 +1,13 @@
-
 html {
   background-color: whitesmoke;
 }
 
 #banner {
-  background-color: #A4D5D1;
+  background-color: #a4d5d1;
   color: white;
   padding-bottom: 1em;
   padding-top: 1em;
-  padding-left:1em;
+  padding-left: 1em;
   border-bottom: 5px solid whitesmoke;
 }
 
@@ -27,7 +26,6 @@ body {
   color: #333;
   font-family: sans-serif;
   margin: 2.5em 4em 4em 4em;
-
 }
 
 p {
@@ -35,17 +33,15 @@ p {
   padding-right: 40px;
 }
 
-h1{ padding: 0 0 0 25px;
+h1 {
+  padding: 0 0 0 25px;
+}
 
- }
-
-h2{
-  border-top: 10px solid #A4D5D1;
+h2 {
+  border-top: 10px solid #a4d5d1;
   padding: 25px 0 0 25px;
-
 }
 
-h3{padding: 0 0 0 25px;
-  
+h3 {
+  padding: 0 0 0 25px;
 }
-

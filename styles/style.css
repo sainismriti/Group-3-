@@ -8,7 +8,10 @@ html {
   padding-bottom: 1em;
   padding-top: 1em;
   padding-left: 1em;
-  border-bottom: 5px solid whitesmoke;
+  position:fixed;
+  width: 87.5%;
+  z-index: 999;
+  top: 0;
 }
 
 /* navigation links */
@@ -26,6 +29,7 @@ body {
   color: #333;
   font-family: sans-serif;
   margin: 2.5em 4em 4em 4em;
+  padding-top: 25px;
 }
 
 p {

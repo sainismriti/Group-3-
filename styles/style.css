@@ -49,3 +49,8 @@ h2 {
 h3 {
   padding: 0 0 0 25px;
 }
+
+li {
+  padding-left: 100px;
+  padding-right: 40px;
+}

@@ -23,25 +23,29 @@ html {
 
 /* body */
 body {
-  background-color: #A4D5D1;
+  background-color: whitesmoke;
   color: #333;
   font-family: sans-serif;
   margin: 2.5em 4em 4em 4em;
 
 }
 
-p {width: 1000px;
-  padding-left:75px;
+p {
+  padding-left: 75px;
+  padding-right: 40px;
 }
 
 h1{ padding: 0 0 0 25px;
+
  }
 
 h2{
-  border-top: 3px dashed whitesmoke;
+  border-top: 10px solid #A4D5D1;
   padding: 25px 0 0 25px;
+
 }
 
 h3{padding: 0 0 0 25px;
+  
 }
 

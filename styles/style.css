@@ -8,10 +8,12 @@ html {
   padding-bottom: 1em;
   padding-top: 1em;
   padding-left: 1em;
-  position:fixed;
-  width: 87.5%;
+  position: fixed;
+  width: 100%;
   z-index: 999;
   top: 0;
+  left: 0;
+  box-sizing: border-box;
 }
 
 /* navigation links */

@@ -43,6 +43,17 @@ h1 {
   padding: 0 0 0 25px;
 }
 
+.center {
+  text-align: center;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 h2 {
   border-top: 10px solid #a4d5d1;
   padding: 25px 0 0 25px;
@@ -65,4 +76,25 @@ img {
 
 .container {
   display: flex; /* use flex to align items horizontally */
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #a4d5d1; /* this will add a background color */
+  border: none;
+  padding: 12px 20px; /* this will add some padding */
+  font-size: 16px; /* this will change font size */
+  border-radius: 4px; /* this will add rounded corners */
+  cursor: pointer; /* this will change cursor on hover */
+  text-align: center; /* this will center the text */
+}
+
+/* this will change the appearance on hover */
+.btn-link:hover {
+  background-color: #78d8d0;
+}
+
+.btn-link a {
+  text-decoration: none;
 }

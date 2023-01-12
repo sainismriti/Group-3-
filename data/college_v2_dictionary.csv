@@ -1,0 +1,96 @@
+﻿Variables ,Definition ,Data Source,
+,,,
+Social Capital Variables,,,
+ec_own_ses_college,"Baseline definition of economic connectedness: two times the share of high-SES friends within three birth cohorts among low-SES individuals, averaged over all low-SES individuals in the college. See equations (1), (2), and (3) of Chetty et al. (2022a) for a formal definition. ",OI data,
+ec_parent_ses_college,"Economic connectedness with parental SES: two times the share
+of high-parental-SES friends (who attended the same school within
+three birth cohorts of the individual) among low-parental-SES individuals, averaged over all low-parental-SES individuals at the college. ",OI data,
+ec_high_own_ses_college,"Economic connectedness for high-SES individuals: two times the
+share of high-SES friends within three birth cohorts among high-SES
+individuals, averaged over all high-SES individuals in the college",OI data,
+ec_high_parent_ses_college,"Economic connectedness for high-parental-SES individuals using
+parental SES: two times the share of high-parental-SES friends (who
+attended the same school within three birth cohorts of the individual) among high-parental-SES individuals, averaged over all highparental-SES individuals in the college",OI data,
+,,,
+Test Scores,,,
+sat_mid_read,Midpoint of SAT scores at the institution (critical reading),College Scorecard,
+sat_mid_math,Midpoint of SAT scores at the institution (math),College Scorecard,
+act_mid_cumulative,ACTCMMID,College Scorecard,
+act_mid_english,Midpoint of the ACT English score,College Scorecard,
+act_mid_math,Midpoint of the ACT math score,College Scorecard,
+act_mid_writing,Midpoint of the ACT writing score,College Scorecard,
+sat_avg,Average SAT equivalent score of students admitted,College Scorecard,
+ug_enrol,Enrollment of undergraduate certificate/degree-seeking students,College Scorecard,
+v_sat_avg_2013,"Average SAT scores (scaled to 1600) in [YEAR] = 2001, 2013,
+defined as the mean of the 25th and 75th percentile of
+math+verbal SAT scores. Missing for institutions that do not
+require SAT.",OI data ,
+,,,
+Cost of attendance ,,,
+nprice_pub_cat1,"Average net price for $0-$30,000 family income (public institutions)",College Scorecard,"The average annual total cost of attendance (CostT4_A, CostT4_P), including tuition and fees, books and supplies, and living expenses, minus the average grant/scholarship aid, by detailed income category. It is calculated for all full-time, first-time, degree/certificate-seeking undergraduates who receive Title IV aid. It is included in the IPEDS Student Financial Aid component. Separate metrics are calculated for public institutions and private institutions for each of the following five income categories: $0-$30,000; $30,001-$48,000; $48,001-$75,000; $75,001-$110,000; $110,001 or more. For public institutions, this metric is limited to full-time, first-time, degree/certificate-seeking undergraduates who pay in-state tuition and receive Title IV aid. For private institutions, it includes all full-time, first-time, degree/certificate-seeking undergraduates who receive Title IV aid. For academic-year institutions, net price represents an average of all programs and includes only full-time, first-time, degree/certificate-seeking undergraduates who first enrolled in the fall term. For non-academic-year institutions (program or continuous enrollment), net price represents the program with the largest enrollment at the institution and it includes full-time, first-time, degree/certificate-seeking undergraduates who first enrolled at any time during the academic year. For programs less than 1 year in length (see LPROGRAM), this represents the net price for the full program. The total cost of attendance depends on whether full-time, first-time, degree/certificate-seeking undergraduates live on campus, off campus (not with family), or off campus (with family). Income categories are calculated from the income values used by the institution to calculate financial aid eligibility. For a dependent student, this includes the student's and the parents' income. For an independent student, this includes the s2tudent's adjusted gross income and, if the student is married, the spouse's income. This metric is not available prior to the 2009-10 academic year."
+nprice_pub_cat2,"Average net price for $30,001-$48,000 family income (public institutions)",College Scorecard,
+nprice_pub_cat3,"Average net price for $48,001-$75,000 family income (public institutions)",College Scorecard,
+nprice_pub_cat4,"Average net price for $75,001-$110,000 family income (public institutions)",College Scorecard,
+nprice_pub_cat5,"Average net price for $110,000+ family income (public institutions)",College Scorecard,
+nprice_pvt_cat1,"Average net price for $0-$30,000 family income (private for-profit and nonprofit institutions)",College Scorecard,
+nprice_pvt_cat2,"Average net price for $30,001-$48,000 family income (private for-profit and nonprofit institutions)",College Scorecard,
+nprice_pvt_cat3,"Average net price for $48,001-$75,000 family income (private for-profit and nonprofit institutions)",College Scorecard,
+nprice_pvt_cat4,"Average net price for $75,001-$110,000 family income (private for-profit and nonprofit institutions)",College Scorecard,
+nprice_pvt_cat5,"Average net price for $110,000+ family income (private for-profit and nonprofit institutions)",College Scorecard,
+avg_cost_attendance,Average cost of attendance (academic year institutions),College Scorecard,
+v_sticker_price_2013,"Average Annual Cost of Attendance (Tuition + Fees) in
+[YEAR] = 2000, 2013",OI dat,
+v_scorecard_netprice_2013,"Net Cost of Attendance for Bottom 20% Income Quintile in
+2013 from College Scorecard",OI data ,
+,,,
+Debt ,,,
+grad_debt_median,The median debt for students who have completed,College Scorecard,
+grad_debt_med_LY,"The median debt for students with family income between $0-$30,000",College Scorecard,
+grad_debt_med_MY,"The median debt for students with family income between $30,001-$75,000",College Scorecard,
+grad_debt_med_HY,"The median debt for students with family income $75,001+",College Scorecard,
+,,,
+Family Income ,,,
+avg_familyincome,Average family income,,
+median_householdincome,Median household income,,
+,,,
+Earnings ,,,
+median_earn_aftr6yr,Median earnings of students working and not enrolled 6 years after entry,,
+,,,
+Other Characterisitics ,,,
+completion_rate,"Completion rate for first-time, full-time students at four-year institutions (150% of expected time to completion)",College Scorecard,
+instnm,college ,,
+tier ,"Selectivity and type combination (defined above):
+1 = Ivy Plus
+2 = Other elite schools (public and private)
+3 = Highly selective public
+4 = Highly selective private
+5 = Selective public
+6 = Selective private
+7 = Nonselective 4-year public
+8 = Nonselective 4-year private not-for-profit
+9 = Two-year (public and private not-for-profit)
+10 = Four-year for-profit
+11 = Two-year for-profit
+12 = Less than two year schools of any type
+13 = Attending college with insufficient data
+14 = Not in college between the ages of 19-22",OI data,
+v_ipeds_enrollment_2013,"Total IPEDS undergraduate enrollment (full time + part time)
+in Fall [YEAR] = 2000, 2013",OI data,
+v_black_share_fall_2000,Share of Black undergraduate students in Fall 2000,OI data,
+v_hisp_share_fall_2000,Share of Hispanic undergraduate students in Fall 2000,,
+,,,
+Major ,,,
+v_pct_arthuman_2000,Arts and Humanities Major Share in 2000,OI data,
+v_pct_business_2000,Business Major Share in 2000,OI data,
+v_pct_health_2000,Health and Medicine Major Share in 2000,OI data,
+v_pct_multidisci_2000,Multi/Interdisciplinary Studies Major Share in 2000,OI data,
+v_pct_publicsocial_2000,Public and Social Services Major Share in 2000,OI data,
+v_pct_stem_2000,STEM Major Share in 2000,OI data,
+v_pct_socialscience_2000,Social Sciences Major Share in 2000,OI data,
+v_pct_tradepersonal_2000,Trades and Personal Services Major Share in 2000,OI data,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

@@ -98,3 +98,8 @@ img {
 .btn-link a {
   text-decoration: none;
 }
+
+.highlight {
+   background-color: #FEC868;
+   font-weight: bold;
+}

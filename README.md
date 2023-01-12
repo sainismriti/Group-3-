@@ -8,6 +8,13 @@ To help students evaluate schools based on these concerns, our website helps com
 
 ![Website screenshot](/images/website_screenshot.png)
 
+## Authors
+
+- [Faye Henry](https://github.com/fhenry551)
+- [Jake Steckler](https://github.com/jakesteckler)
+- [Jordan Callahan](https://github.com/jordancallahan)
+- [Smriti Saini](https://github.com/sainismriti)
+
 ## How It's Made
 
 **Tech used:** HTML, CSS, JavaScript, Datawrapper, D3

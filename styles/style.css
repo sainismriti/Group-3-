@@ -74,6 +74,14 @@ img {
   margin-right: 20px;
 }
 
+
+iframe {
+  display: block;
+  width: 1000px;
+  height: 650px;
+  margin: 0 auto;
+}
+
 .container {
   display: flex; /* use flex to align items horizontally */
 }

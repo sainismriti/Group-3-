@@ -1,12 +1,19 @@
 # Group-3
 
-Our website combines streamlines the college application selection process for students and parents by providing a platform for students to search for colleges and universities, and for parents to search for colleges and universities that are a good fit for their children.
+Our website combines and streamlines the college application selection process for students and parents by providing a platform for students to search for colleges and universities, and for parents to search for colleges and universities that are a good fit for their children.
 
 To help students evaluate schools based on these concerns, our website helps compare tuition costs, career outcomes, and social capital all in one place, to help choose a school that is affordable and likely to help them achieve their goals.
 
 **Link to project:** <https://sainismriti.github.io/Group-3-/>
 
 ![Website screenshot](/images/website_screenshot.png)
+
+## Authors
+
+- [Faye Henry](https://github.com/fhenry551)
+- [Jake Steckler](https://github.com/jakesteckler)
+- [Jordan Callahan](https://github.com/jordancallahan)
+- [Smriti Saini](https://github.com/sainismriti)
 
 ## How It's Made
 

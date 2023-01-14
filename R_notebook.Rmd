@@ -1,0 +1,19 @@
+---
+title: "Group 3 R Notebook"
+---
+
+##First, import dataset "college_v5.xslx" in R Studio
+
+##Next, use excel dataset to create datatable in R using datatable from DT library, add filters to each column, and buttons with various functions to export table
+
+college_sorter_table <- datatable(college_v5, 
+									filter = 'top', 
+									extensions = 'Buttons', options = list(dom = 'Bfrtip', columnDefs = list(list(visible=FALSE, targets=c(3,4))), 
+									buttons = list(I('colvis'),c('copy', 'csv', 'excel', 'pdf', 'print'))))
+
+
+##Turn data table into html file using saveWidget function
+saveWidget(college_sorter_table, file = "college_sorter_table.html", selfcontained = TRUE)
+
+
+

@@ -15,6 +15,7 @@ college_sorter_table <- datatable(college_v5,
 
 
 ##Turn data table into html file using saveWidget function
+
 saveWidget(college_sorter_table, file = "college_sorter_table.html", selfcontained = TRUE)
 
 

@@ -28,3 +28,5 @@ We used the following scripts to clean, manipulate, and help visualize our data:
    - This script was used to clean and manipulate our data. It also contains the code used to create our visualizations.
 2. [Jupyter Notebok](../scripts/test-notebook.ipynb)
    - This notebook was used to get some descriptive statistics about our data sets, including the amount of null values, the amount of features and rows, and some basic internal visualizations.
+3. [Stata File](../scripts/group3_datacleaning.do)
+   - To be updated

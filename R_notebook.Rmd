@@ -1,0 +1,33 @@
+---
+title: "R Notebook"
+---
+
+# Transmute dataset to display percentages and dollar values properly
+college_v7 <- college_v6 %>%
+  transmute(School,
+            City,
+            State,
+            "Admissions_Rate" = ifelse(is.na(Admissions_Rate), "", paste0(round(Admissions_Rate, 2)*100, "%")),
+            "Median ACT" = round(Median_ACT, 2),
+            "Average SAT" = round(Average_SAT, 2),
+            "Total Undergrads" = round(Total_Undergrads, 2),
+            "Graduation Rate" = ifelse(is.na(Graduation_Rate), "",paste0(round(Graduation_Rate, 2)*100, "%")),
+            "Median Debt After Graduation" = ifelse(is.na(Median_Debt_After_Graduation), "", paste0("$", round(Median_Debt_After_Graduation, 2))),
+            "Median Salary" = ifelse(is.na(Median_Salary), "", paste0("$", round(Median_Salary, 2))),
+            "Economic Connectedness" = ifelse(is.na(Economic_Connectedness), "", paste0(round(Economic_Connectedness, 2)*100, "%"))
+  )
+
+# Use the datatable function from the DT library to turn transmuted dataset into an R datatable
+college_sorter_table_final <- datatable(college_v7, 
+								filter = 'top', 
+								extensions = 'Buttons', 
+								options = list(dom = 'Bfrtip', 
+										  columnDefs = list(list(visible=FALSE, targets=c(3,4))), 
+								buttons = list(I('colvis'),c('copy', 'csv', 'excel', 'pdf','print'))))
+
+
+# Save the new R datatable into an HTML file in order to be added to the page
+saveWidget(college_sorter_table_final, file = "college_sorter_table_final.html", selfcontained = TRUE)
+
+```
+

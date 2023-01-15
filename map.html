@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Map</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.js"></script>
+    <script type="module">
+      import d3GeoProjection from "https://cdn.skypack.dev/d3-geo-projection";
+    </script>
+    </script>
+  </head>
+  <body>
+    <script>
+      d3.json("map.geojson").then(function (bb) {
+        let width = 200,
+          height = 200;
+        let projection = d3GeoProjection.geoAitoff();
+        projection.fitsize([width, height], bb);
+        let geoGenerator = d3.geoPath().projection(projection);
+
+        let svg = d3
+          .select("body")
+          .append("svg")
+          .style("width", width)
+          .style("height", height);
+
+        svg
+          .append("g")
+          .selectAll("path")
+          .data(bb.features)
+          .join("path")
+          .attr("d", geoGenerator)
+          .attr("fill", "steelblue")
+          .attr("stroke", "white")
+          .attr("stroke-width", 0.5);
+      });
+    </script>
+  </body>
+</html>

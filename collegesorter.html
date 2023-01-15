@@ -3,8 +3,6 @@
   <head>
     <link href="styles/style.css" rel="stylesheet" />
     <title>Group 3</title>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="http://d3js.org/topojson.v0.min.js"></script>
   </head>
   <body>
     <header id="banner">
@@ -48,34 +46,6 @@
         });
       })();
     </script>
-
-    <div>
-      <script>
-        d3.json("data/map.geojson").then(function (bb) {
-          let width = 200,
-            height = 200;
-          let projection = d3.geoOrthographic();
-          projection.fitsize([width, height], bb);
-          let geoGenerator = d3.geoPath().projection(projection);
-
-          let svg = d3
-            .select("body")
-            .append("svg")
-            .style("width", width)
-            .style("height", height);
-
-          svg
-            .append("g")
-            .selectAll("path")
-            .data(bb.features)
-            .join("path")
-            .attr("d", geoGenerator)
-            .attr("fill", "steelblue")
-            .attr("stroke", "white")
-            .attr("stroke-width", 0.5);
-        });
-      </script>
-    </div>
 
     <button class="btn-link">
       <a href="index.html">Home</a>

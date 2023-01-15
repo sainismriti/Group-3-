@@ -56,7 +56,7 @@ h1 {
 
 h2 {
   border-top: 10px solid #a4d5d1;
-  padding: 25px 0 0 25px;
+  padding: 25px 25px 0 25px;
 }
 
 h3 {
@@ -71,13 +71,17 @@ li {
 img {
   width: 300px;
   height: auto;
-  margin-right: 20px;
+  padding: 10px;
 }
 
+.faye {
+  width: 550px;
+  height: auto;
+}
 
 iframe {
   display: block;
-  width: 1000px;
+  width: 1200px;
   height: 650px;
   margin: 0 auto;
 }
@@ -108,6 +112,6 @@ iframe {
 }
 
 .highlight {
-   background-color: #FEC868;
-   font-weight: bold;
+  background-color: #fef9a7;
+  font-weight: bold;
 }

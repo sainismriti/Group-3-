@@ -25,4 +25,6 @@ In addition to that, we made the following changes to our dataset:
 We used the following scripts to clean, manipulate, and help visualize our data:
 
 1. [R Notebook](../scripts/r_notebook.Rmd)
+   - This script was used to clean and manipulate our data. It also contains the code used to create our visualizations.
 2. [Jupyter Notebok](../scripts/test-notebook.ipynb)
+   - This notebook was used to get some descriptive statistics about our data sets, including the amount of null values, the amount of features and rows, and some basic internal visualizations.

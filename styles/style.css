@@ -51,12 +51,12 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 50%;
 }
 
 h2 {
   border-top: 10px solid #a4d5d1;
-  padding: 25px 0 0 25px;
+  padding: 25px 25px 0 25px;
 }
 
 h3 {
@@ -71,7 +71,7 @@ li {
 img {
   width: 300px;
   height: auto;
-  margin-right: 20px;
+  padding: 10px;
 }
 
 .faye {

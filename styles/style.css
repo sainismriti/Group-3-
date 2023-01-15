@@ -74,6 +74,11 @@ img {
   margin-right: 20px;
 }
 
+.faye {
+  width: 550px;
+  height: auto;
+}
+
 iframe {
   display: block;
   width: 1200px;

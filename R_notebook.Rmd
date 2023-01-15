@@ -2,7 +2,7 @@
 title: "R Notebook"
 ---
 
-##Transmute dataset to display percentages and dollar values properly
+# Transmute dataset to display percentages and dollar values properly
 college_v7 <- college_v6 %>%
   transmute(School,
             City,
@@ -17,7 +17,7 @@ college_v7 <- college_v6 %>%
             "Economic Connectedness" = ifelse(is.na(Economic_Connectedness), "", paste0(round(Economic_Connectedness, 2)*100, "%"))
   )
 
-##Use the datatable function from the DT library to turn transmuted dataset into an R datatable
+# Use the datatable function from the DT library to turn transmuted dataset into an R datatable
 college_sorter_table_final <- datatable(college_v7, 
 								filter = 'top', 
 								extensions = 'Buttons', 
@@ -26,7 +26,7 @@ college_sorter_table_final <- datatable(college_v7,
 								buttons = list(I('colvis'),c('copy', 'csv', 'excel', 'pdf','print'))))
 
 
-##Save the new R datatable into an HTML file in order to be added to the page
+# Save the new R datatable into an HTML file in order to be added to the page
 saveWidget(college_sorter_table_final, file = "college_sorter_table_final.html", selfcontained = TRUE)
 
 ```

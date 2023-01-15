@@ -19,3 +19,10 @@ In addition to that, we made the following changes to our dataset:
 1. Excluded For-Profit colleges
 2. Renamed columns to make them more readable and easily understood
 3. Converted the 'own_sc_low' variable to a percentage by multiplying it by 100 then dividing by 2
+
+## Scripts
+
+We used the following scripts to clean, manipulate, and help visualize our data:
+
+1. [R Notebook](../scripts/r_notebook.Rmd)
+2. [Jupyter Notebok](../scripts/test-notebook.ipynb)

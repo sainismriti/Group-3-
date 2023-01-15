@@ -54,6 +54,21 @@ h1 {
   width: 50%;
 }
 
+.logo1{
+  width: 250px;
+  height: 250px;
+}
+
+.logo2{
+  width: 250px;
+  height: 100px;
+}
+
+.logo3{
+  width: 250px;
+  height: 100px;
+}
+
 h2 {
   border-top: 10px solid #a4d5d1;
   padding: 25px 25px 0 25px;

@@ -18,6 +18,7 @@ To help students evaluate schools based on these concerns, our website helps com
 ## How It's Made
 
 
+
 ** DATA used: College Scorecard, Opportunity Insights 
 The college Scorecard data is a large dataset and we used it on our desktop. The link to the data is https://collegescorecard.ed.gov/data/ 
 The Opportunity Insights data is called social_capital_college.csv and is in the data folder of the Group-3 repository. 
@@ -30,8 +31,9 @@ This website was created primarily using HTML, CSS, and a little bit of JavaScri
 
 Using STATA, we combined all relevant metrics into a single dataset. The do-file can be found at scripts/Group3_datacleaning.  We then used R to create an interactive datatable that allows students to sort by each metric and search for their colleges of choice. R code with notes can be found in scripts/r_notebook.Rmd.
 
-We also used OpenAI's DALL-E to create images on our homepage to help set an appropriate tone for the website and be as user friendly as possibly. 
+We also used OpenAI's DALL-E to create images on our homepage to help set an appropriate tone for the website and be as user friendly as possibly.
 
+There is a link to a data readme file in our data folder, linked [here](data/README.md).
 
 ## Lessons Learned
 
@@ -44,8 +46,8 @@ As a team, when we first used agile methodologies, we learned how to be more fle
 As a team, when we first used git, we learned how to manage and track changes to our codebase more effectively. The four of us had varying levels of familiarity and comfort with the technology, which allowed us to lean on each other for support. We learned how to use branches to isolate different features and fix bugs, and how to use pull requests to review and merge changes. We also learned how to use git for collaboration and version control, allowing us to work on the same codebase at the same time without interfering with each other's work. Using git for the first time was a valuable learning experience for us as it helped us to improve our workflow and collaboration efforts.
 
 ### Data Visualization
-
 By attempting to visualize our data in a coherent, useable way, we learned the challenges of handling a large dataset. It took a great deal of deliberation to determine which of the datasets nearly 8000 schools were applicable to our purporse and which of the thousands of available variables were relevant. Oxnce this part was settled, we also learned the challenges of converting a dataset of raw information into a user-friendly visualization. 
 
-## Burndown
+### Burndown
 The link to the file: https://docs.google.com/spreadsheets/d/1-LDDnzYHJmxts6pnp8wE-N1GPX4PMQ6uH_59U33kfp0/edit#gid=2024175038
+

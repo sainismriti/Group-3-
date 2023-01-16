@@ -21,7 +21,7 @@ To help students evaluate schools based on these concerns, our website helps com
 
 This website was created primarily using HTML, CSS, and a little bit of JavaScript. The data was gathered from many sources, including [College Scorecard](https://collegescorecard.ed.gov/compare), Opportunity Insights' [Social Capital Atlas](https://socialcapital.org/?dimension=EconomicConnectednessIndividual&geoLevel=college&selectedId=&dim1=EconomicConnectednessIndividual&dim2=CohesivenessClustering&dim3=CivicEngagementVolunteeringRates&bigModalSection=&bigModalChart=scatterplot&showOutliers=false&colorBy=), and Payscale's [College Salary Report](https://www.payscale.com/college-salary-report/bachelors), and the data was visualized using R, Datawrapper and D3.
 
-Using STATA, we combined all relevant metrics into a single dataset. We then used R to create an interactive datatable that allows students to sort by each metric and search for their colleges of choice. R code with notes can be found in scripts/r_notebook.Rmd.
+Using STATA, we combined all relevant metrics into a single dataset. We then used R to create an interactive datatable that allows students to sort by each metric and search for their colleges of choice. R code with notes can be found in [here](scripts/r_notebook.Rmd).
 
 We also used OpenAI's DALL-E to create images on our homepage to help set an appropriate tone for the website and be as user friendly as possibly.
 

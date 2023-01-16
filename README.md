@@ -19,7 +19,7 @@ To help students evaluate schools based on these concerns, our website helps com
 
 **Tech used:** HTML, CSS, JavaScript, Datawrapper, D3
 
-This website was created primarily using HTML, CSS, and a little bit of JavaScript. The data was gathered from many sources, including [College Scorecard](https://collegescorecard.ed.gov/compare), Opportunity Insights' [Social Capital Atlas](https://socialcapital.org/?dimension=EconomicConnectednessIndividual&geoLevel=college&selectedId=&dim1=EconomicConnectednessIndividual&dim2=CohesivenessClustering&dim3=CivicEngagementVolunteeringRates&bigModalSection=&bigModalChart=scatterplot&showOutliers=false&colorBy=), and Payscale's [College Salary Report](https://www.payscale.com/college-salary-report/bachelors), and the data was visualized using Datawrapper and D3.
+This website was created primarily using HTML, CSS, and a little bit of JavaScript. The data was gathered from many sources, including [College Scorecard](https://collegescorecard.ed.gov/compare), Opportunity Insights' [Social Capital Atlas](https://socialcapital.org/?dimension=EconomicConnectednessIndividual&geoLevel=college&selectedId=&dim1=EconomicConnectednessIndividual&dim2=CohesivenessClustering&dim3=CivicEngagementVolunteeringRates&bigModalSection=&bigModalChart=scatterplot&showOutliers=false&colorBy=), and Payscale's [College Salary Report](https://www.payscale.com/college-salary-report/bachelors), and the data was visualized using Datawrapper.
 
 ## Lessons Learned
 

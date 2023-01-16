@@ -3,7 +3,7 @@ title: "R Notebook"
 ---
 
 # Transmute dataset to display percentages and dollar values properly
-college_v7 <- college_v6 %>%
+college_v6 <- college_v5 %>%
   transmute(School,
             City,
             State,
@@ -18,7 +18,7 @@ college_v7 <- college_v6 %>%
   )
 
 # Use the datatable function from the DT library to turn transmuted dataset into an R datatable
-college_sorter_table_final <- datatable(college_v7, 
+college_sorter_table_final <- datatable(college_v6, 
 								filter = 'top', 
 								extensions = 'Buttons', 
 								options = list(dom = 'Bfrtip', 

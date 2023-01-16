@@ -25,7 +25,7 @@ Using STATA, we combined all relevant metrics into a single dataset. We then use
 
 We also used OpenAI's DALL-E to create images on our homepage to help set an appropriate tone for the website and be as user friendly as possibly.
 
-There is a link to a data readme file in our data folder, linked [here](data/DATA_README.MD).
+There is a link to a data readme file in our data folder, linked [here](data/README.md).
 
 ## Lessons Learned
 

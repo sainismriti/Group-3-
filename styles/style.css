@@ -54,9 +54,24 @@ h1 {
   width: 50%;
 }
 
+.logo1{
+  width: 250px;
+  height: 250px;
+}
+
+.logo2{
+  width: 250px;
+  height: 100px;
+}
+
+.logo3{
+  width: 250px;
+  height: 100px;
+}
+
 h2 {
   border-top: 10px solid #a4d5d1;
-  padding: 25px 0 0 25px;
+  padding: 25px 25px 0 25px;
 }
 
 h3 {
@@ -71,9 +86,13 @@ li {
 img {
   width: 300px;
   height: auto;
-  margin-right: 20px;
+  padding: 10px;
 }
 
+.faye {
+  width: 550px;
+  height: auto;
+}
 
 iframe {
   display: block;
@@ -108,6 +127,6 @@ iframe {
 }
 
 .highlight {
-   background-color: #FEF9A7;
-   font-weight: bold;
+  background-color: #fef9a7;
+  font-weight: bold;
 }

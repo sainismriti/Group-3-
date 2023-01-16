@@ -17,9 +17,9 @@ To help students evaluate schools based on these concerns, our website helps com
 
 ## How It's Made
 
-**Tech used:** HTML, CSS, JavaScript, Datawrapper, D3
+**Tech used:** HTML, CSS, JavaScript, Datawrapper, D3, Stata, and R
 
-This website was created primarily using HTML, CSS, and a little bit of JavaScript. The data was gathered from many sources, including [College Scorecard](https://collegescorecard.ed.gov/compare), Opportunity Insights' [Social Capital Atlas](https://socialcapital.org/?dimension=EconomicConnectednessIndividual&geoLevel=college&selectedId=&dim1=EconomicConnectednessIndividual&dim2=CohesivenessClustering&dim3=CivicEngagementVolunteeringRates&bigModalSection=&bigModalChart=scatterplot&showOutliers=false&colorBy=), and Payscale's [College Salary Report](https://www.payscale.com/college-salary-report/bachelors), and the data was visualized using Datawrapper and D3.
+This website was created primarily using HTML, CSS, and a little bit of JavaScript. The data was gathered from many sources, including [College Scorecard](https://collegescorecard.ed.gov/compare), Opportunity Insights' [Social Capital Atlas](https://socialcapital.org/?dimension=EconomicConnectednessIndividual&geoLevel=college&selectedId=&dim1=EconomicConnectednessIndividual&dim2=CohesivenessClustering&dim3=CivicEngagementVolunteeringRates&bigModalSection=&bigModalChart=scatterplot&showOutliers=false&colorBy=), and Payscale's [College Salary Report](https://www.payscale.com/college-salary-report/bachelors), and the data was visualized using R, Datawrapper and D3.
 
 ## Lessons Learned
 
@@ -33,4 +33,4 @@ As a team, when we first used git, we learned how to manage and track changes to
 
 ### Data Visualization
 
-To update.
+The first step was to determine which variables we thought were most relevant to meet the purpose of our website. We gathered data from the U.S. Dept. of Education's College Scorecard, as well as Opportunity Insights Social Capital database. Using STATA, we combined all relevant metrics into a single dataset. We then used R to create an interactive datatable that allows students to sort by each metric and search for their colleges of choice. R code with notes can be found in scripts/r_notebook.Rmd.

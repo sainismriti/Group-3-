@@ -43,7 +43,7 @@ As a team, when we first used git, we learned how to manage and track changes to
 
 ### Data Visualization
 
-By attempting to visualize our data in a coherent, useable way, we learned the challenges of handling a large dataset. It took a great deal of deliberation to determine which of the datasets nearly 8000 schools were applicable to our purporse and which of the thousands of available variables were relevant. Oxnce this part was settled, we also learned the challenges of converting a dataset of raw information into a user-friendly visualization.
+By attempting to visualize our data in a coherent, useable way, we learned the challenges of handling a large dataset. It took a great deal of deliberation to determine which of the datasets nearly 8000 schools were applicable to our purporse and which of the thousands of available variables were relevant. Once this part was settled, we also learned the challenges of converting a dataset of raw information into a user-friendly visualization.
 
 ### Burndown
 

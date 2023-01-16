@@ -104,4 +104,5 @@ keep adm_rate sat_mid* act_mid* sat_avg ug_enrol nprice_pub_cat* nprice_pvt_cat*
 
 merge 1:1 instnm zipcode using "/Users/smritisaini/Desktop/OI_CollegeData.dta"
 
+export delimited using "/Users/smritisaini/Desktop/college_v3.csv", replace
 
